@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notchward Privacy Policy — AppNovex</title>
+<style>
+body{margin:0;background:#08090d;color:#f4f6fa;font:16px/1.7 -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:60px 24px 80px}
+a{color:#3df2a6}h1{font-size:34px;letter-spacing:-.02em;margin-bottom:6px}
+h2{font-size:20px;margin-top:34px}p,li{color:rgba(244,246,250,.72)}
+.muted{color:rgba(244,246,250,.45);font-size:14px}
+.box{border:1px solid rgba(255,255,255,.09);background:rgba(255,255,255,.05);border-radius:14px;padding:18px 20px;margin:24px 0}
+</style></head><body><div class="wrap">
+<p class="muted"><a href="/notchward/">← Notchward</a></p>
+<h1>Privacy Policy</h1>
+<p class="muted">Notchward for macOS · Last updated 22 September 2026</p>
+
+<div class="box"><b>The short version:</b> Notchward collects nothing. It has no accounts, no analytics, no advertising and no servers. Everything it shows stays on your Mac.</div>
+
+<h2>What Notchward processes</h2>
+<p>When you connect a coding agent, that agent sends Notchward events about its own activity over your Mac's local loopback address (127.0.0.1): which project a session is in, which tool it is about to run, the command or file path involved, and when a session finishes. Notchward evaluates these events locally to display status and to apply your guard rules.</p>
+<p>These events are held in memory while the app runs and are discarded when sessions end or the app quits. They are never written to a database, never uploaded, and never shared with AppNovex or anyone else.</p>
+
+<h2>What Notchward stores on your Mac</h2>
+<ul>
+<li>Your settings (guard mode, sounds, watch categories, your own rules) in the app's sandbox container.</li>
+<li>A private token used to authenticate the local hook endpoint, stored in the macOS Keychain.</li>
+<li>A security-scoped bookmark to the agent folder you selected, so it can keep its hooks up to date.</li>
+</ul>
+
+<h2>Folder access</h2>
+<p>Notchward is sandboxed. It can only read or modify the folder you explicitly select in the macOS open panel (for example <code>~/.claude</code>). Within that folder it edits the <code>hooks</code> section of the agent's configuration, keeps a backup of the original file, and reads transcript files only to count tokens for sessions you can already see. You can disconnect at any time in Settings → Agents, which removes the hooks.</p>
+
+<h2>Network</h2>
+<p>Notchward runs a local HTTP listener bound to 127.0.0.1 so your agent's hooks can reach it. It is not reachable from other devices, and requests without your private token are rejected. Notchward makes no outbound network requests. Purchases are handled entirely by Apple's App Store; AppNovex never receives your payment details.</p>
+
+<h2>Data we collect: none</h2>
+<p>AppNovex does not collect, receive, process or sell any personal data through Notchward. There is no telemetry, crash reporting SDK, or identifier of any kind. If you email support, we only see what you choose to write to us.</p>
+
+<h2>Children</h2>
+<p>Notchward is a developer tool and is not directed at children under 13.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the updated version will be posted on this page with a new date.</p>
+
+<h2>Contact</h2>
+<p>AppNovex — <a href="mailto:support@appnovex.com">support@appnovex.com</a></p>
+</div></body></html>
