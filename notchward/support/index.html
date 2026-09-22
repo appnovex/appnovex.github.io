@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notchward Support — AppNovex</title>
+<style>
+body{margin:0;background:#08090d;color:#f4f6fa;font:16px/1.7 -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif}
+.wrap{max-width:780px;margin:0 auto;padding:60px 24px 80px}
+a{color:#3df2a6}h1{font-size:34px;letter-spacing:-.02em}h2{font-size:20px;margin-top:34px}
+p,li{color:rgba(244,246,250,.72)}.muted{color:rgba(244,246,250,.45);font-size:14px}
+details{border:1px solid rgba(255,255,255,.09);background:rgba(255,255,255,.05);border-radius:14px;padding:16px 18px;margin-bottom:12px}
+summary{cursor:pointer;font-weight:600;color:#f4f6fa}
+code{font:13px ui-monospace,Menlo,monospace;background:rgba(0,0,0,.5);padding:2px 6px;border-radius:6px}
+.box{border:1px solid rgba(61,242,166,.35);background:rgba(61,242,166,.08);border-radius:14px;padding:18px 20px;margin:24px 0}
+</style></head><body><div class="wrap">
+<p class="muted"><a href="/notchward/">← Notchward</a></p>
+<h1>Support</h1>
+<p>Email <a href="mailto:support@appnovex.com">support@appnovex.com</a> — we answer within two business days. Please include your macOS version, Notchward version (Settings → About) and which agent you use.</p>
+
+<div class="box">Notchward never sends anything off your Mac, so we can't see your setup. The more detail you paste, the faster we can help.</div>
+
+<h2>Common questions</h2>
+<details><summary>Notchward doesn't react when my agent runs</summary>
+<p>Open Settings → Agents. The endpoint should say "Listening on 127.0.0.1:47821" and Claude Code should say "Connected". If it says "Hooks missing", click Repair. Start a new agent session afterwards — hooks are read when a session starts.</p></details>
+<details><summary>I use a custom settings file or want to install the hooks myself</summary>
+<p>Settings → Agents → Manual setup → "Copy Claude Code hooks", then merge the <code>hooks</code> key into your own <code>~/.claude/settings.json</code>. For Codex, copy the <code>notify</code> line into <code>~/.codex/config.toml</code>.</p></details>
+<details><summary>Approvals appear in my terminal instead of the notch</summary>
+<p>One-click approvals are a Pro feature and need "Answer agent permission prompts in the notch" switched on in Settings → Guard. If nobody answers within the timeout, Notchward hands the decision back to the terminal on purpose.</p></details>
+<details><summary>The guard is too strict / too quiet</summary>
+<p>Settings → Guard lets you pick Watch, Guard or Lockdown, turn off individual rule categories, and add your own patterns.</p></details>
+<details><summary>My Mac has no notch</summary>
+<p>Notchward draws its own island at the top of the screen instead. Everything else works the same.</p></details>
+<details><summary>I bought Pro but it shows as locked</summary>
+<p>Settings → Pro → Restore purchase, using the same Apple Account you bought it with.</p></details>
+<details><summary>How do I remove Notchward completely?</summary>
+<p>Settings → Agents → Disconnect (this removes the hooks from your agent config), then move Notchward to the Trash.</p></details>
+<details><summary>Reporting a security issue</summary>
+<p>Email <a href="mailto:support@appnovex.com">support@appnovex.com</a> with "SECURITY" in the subject. We reply within two business days and fix before any public disclosure.</p></details>
+</div></body></html>
