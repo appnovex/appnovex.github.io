@@ -1,0 +1,48 @@
+NOTCHWARD - SUPPORT
+AppNovex - support@appnovex.com
+
+Email support@appnovex.com and we answer within two business days.
+Please include: your macOS version, your Notchward version (Settings > About)
+and which agent you use (Claude Code or Codex).
+
+Notchward never sends anything off your Mac, so we cannot see your setup.
+The more detail you paste, the faster we can help.
+
+COMMON QUESTIONS
+
+1) Notchward does not react when my agent runs
+   Open Settings > Agents. The endpoint should say "Listening on
+   127.0.0.1:47821" and Claude Code should say "Connected". If it says
+   "Hooks missing", click Repair. Start a new agent session afterwards -
+   hooks are read when a session starts.
+
+2) I want to install the hooks myself
+   Settings > Agents > Manual setup > "Copy Claude Code hooks", then merge
+   the "hooks" key into your own ~/.claude/settings.json. For Codex, copy the
+   "notify" line into ~/.codex/config.toml.
+
+3) Approvals appear in my terminal instead of the notch
+   One-click approvals are a Pro feature and need "Answer agent permission
+   prompts in the notch" switched on in Settings > Guard. If nobody answers
+   within the timeout, Notchward hands the decision back to the terminal on
+   purpose.
+
+4) The guard is too strict or too quiet
+   Settings > Guard lets you choose Watch, Guard or Lockdown, switch off
+   individual rule categories, and add your own patterns.
+
+5) My Mac has no notch
+   Notchward draws its own island at the top of the screen instead.
+   Everything else works the same.
+
+6) I bought Pro but it shows as locked
+   Settings > Pro > Restore purchase, using the same Apple Account you
+   bought it with.
+
+7) How do I remove Notchward completely?
+   Settings > Agents > Disconnect (this removes the hooks from your agent
+   config), then move Notchward to the Trash.
+
+REPORTING A SECURITY ISSUE
+Email support@appnovex.com with "SECURITY" in the subject. We reply within
+two business days and fix before any public disclosure.
