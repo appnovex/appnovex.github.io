@@ -1,0 +1,57 @@
+NOTCHWARD - PRIVACY POLICY
+AppNovex - last updated 22 September 2026
+Contact: support@appnovex.com
+
+THE SHORT VERSION
+Notchward collects nothing. No accounts, no analytics, no advertising, no
+servers. Everything it shows stays on your Mac.
+
+WHAT NOTCHWARD PROCESSES
+When you connect a coding agent (Claude Code or Codex), that agent sends
+Notchward events about its own activity over your Mac's local loopback
+address (127.0.0.1): which project a session is in, which tool it is about to
+run, the command or file path involved, and when a session finishes.
+Notchward evaluates these events locally to show status and to apply your
+guard rules.
+
+These events are held in memory while the app runs and are discarded when
+sessions end or the app quits. They are never written to a database, never
+uploaded, and never shared with AppNovex or anyone else.
+
+WHAT NOTCHWARD STORES ON YOUR MAC
+- Your settings (guard mode, sounds, rule categories, your own rules), in the
+  app's sandbox container.
+- A private token that authenticates the local hook endpoint, stored in the
+  macOS Keychain.
+- A security-scoped bookmark to the agent folder you selected, so Notchward
+  can keep its hooks up to date.
+
+FOLDER ACCESS
+Notchward is sandboxed. It can only read or modify the folder you explicitly
+select in the macOS open panel (for example ~/.claude). Inside that folder it
+edits the "hooks" section of the agent's configuration, keeps a backup of the
+original file, and reads transcript files only to count tokens for sessions
+you can already see. You can disconnect at any time in Settings > Agents,
+which removes the hooks.
+
+NETWORK
+Notchward runs a local HTTP listener bound to 127.0.0.1 so your agent's hooks
+can reach it. It is not reachable from other devices, and requests without
+your private token are rejected. Notchward makes no outbound network requests
+of its own. Purchases are handled entirely by Apple's App Store; AppNovex
+never receives your payment details.
+
+DATA WE COLLECT: NONE
+AppNovex does not collect, receive, process or sell any personal data through
+Notchward. There is no telemetry, crash-reporting SDK, or identifier of any
+kind. If you email support, we only see what you choose to write to us.
+
+CHILDREN
+Notchward is a developer tool and is not directed at children under 13.
+
+CHANGES
+If this policy changes, the updated version will be posted at this address
+with a new date.
+
+CONTACT
+AppNovex - support@appnovex.com
