@@ -1,0 +1,75 @@
+AERONOVA: SKY PILOT - SUPPORT
+AppNovex - support@appnovex.com
+
+Email support@appnovex.com and we answer within two business days. Please
+include your iPhone model, iOS version, the app version (shown at the bottom
+of Settings) and, for online issues, your pilot name.
+
+COMMON QUESTIONS
+
+1) How do I fly the drone?
+   In Easy mode the left stick climbs, descends and turns, and the right stick
+   moves the drone forward, back and sideways. The drone holds its altitude on
+   its own. Pro (Acro) mode in Settings gives you full manual control, like a
+   real FPV quad.
+
+2) How do I fly the jet?
+   Left stick up and down sets throttle, and left and right is the rudder. The
+   right stick controls pitch and roll. Hold BOOST for the afterburner. If you
+   see "STALL", lower the nose and add throttle.
+
+3) Can I use a game controller or tilt steering?
+   Yes. MFi, Xbox and PlayStation controllers work automatically. Tilt
+   steering can be switched on in Settings; use "Calibrate" to re-centre it.
+
+4) How do ranked duels and leagues work?
+   Open ONLINE - RANKED and pick Drone or Jet. You race a rival's recorded
+   "ghost" on a random course. Win to raise your rating and climb from Bronze
+   to Legend. Rivals marked AI are computer pilots, used when no human rival
+   is available. Leaving a race early counts as a loss.
+
+5) Do paid aircraft win online races?
+   No. Online races use the same standard performance for every aircraft, so
+   purchases change only the look. Skill decides the result.
+
+6) Keep my online rank on a new iPhone
+   Tap Settings > Online account > Sign in with Apple on your old device. Then
+   sign in with the same Apple ID on the new device.
+
+7) How do I delete my online account?
+   Go to Settings > Online account > Delete online account. This deletes your
+   profile, rating, results and replays from our servers right away.
+
+8) I think someone is cheating
+   Every online result is checked on our server, and suspicious times are held
+   for review. Email us the pilot name and the course, and we will
+   investigate.
+
+9) I bought something but didn't receive it
+   Open Shop > Restore Purchases, or Settings > Restore purchases. If that
+   doesn't fix it, email us with the date of the purchase. Apple handles all
+   payments and refunds at https://reportaproblem.apple.com
+
+10) How do I cancel the Pilot Pass?
+   Go to iOS Settings > [your name] > Subscriptions > AeroNova, or tap Manage
+   on the Pilot Pass card in the Shop. Cancel at least 24 hours before
+   renewal.
+
+11) How do I remove ads?
+   The Remove Ads purchase, the Starter Pack or an active Pilot Pass removes
+   all between-mission ads. Reward ads, such as 2x coins, are always your
+   choice.
+
+12) My progress disappeared
+   Single-player progress is saved on your device, and deleting the app
+   removes it. Your online rank is kept on our server; use Sign in with Apple
+   to keep it across devices. Purchases are never lost; use Restore Purchases
+   to get them back.
+
+13) How do I change ad privacy / tracking?
+   Go to iOS Settings > Privacy & Security > Tracking, or open AeroNova >
+   Settings > Ad privacy choices. Privacy policy:
+   https://appnovex.github.io/aeronova/privacy.txt
+
+TERMS OF USE
+Apple's standard EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
